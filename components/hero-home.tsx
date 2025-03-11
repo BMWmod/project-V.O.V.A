@@ -8,20 +8,20 @@ export default function HeroHome() {
         {/* Hero content */}
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="pb-12 text-center md:pb-20">
+          <div className="pb-20 text-center md:pb-28">
             <h1
               className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-blue-200),var(--color-gray-50),var(--color-red-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl"
               data-aos="fade-up"
             >
-              Вова верхний
+              Комаринская ферма
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
-                className="mb-8 text-xl text-red-200/250"
+                className="mb-8 text-1 text-red-200/250"
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Вова нижний
+                ОАО «Комаринский» — современное многоотраслевое сельское хозяйство Брагинского района. Сельхозпредприятие было организовано в 2012 году, ранее именовалось «Совхоз «Комаринский». Основной вид деятельности — смешанное сельское хозяйство. Хозяйство разводит крупный рогатый мясной скот лимузинской породы. 
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div data-aos="fade-up" data-aos-delay={400}>
@@ -54,7 +54,7 @@ export default function HeroHome() {
             thumbWidth={1104}
             thumbHeight={576}
             thumbAlt="Modal video thumbnail"
-            video="videos//video.mp4"
+            video="videos//video2.mp4"
             videoWidth={1920}
             videoHeight={1080}
           />

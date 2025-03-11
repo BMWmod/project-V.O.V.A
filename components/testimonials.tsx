@@ -152,7 +152,7 @@ export default function Testimonials() {
               >
                 <svg
                   className={`fill-current ${category === 2 ? "text-red-500" : "text-gray-600"}`}
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns=""
                   width="16"
                   height={16}
                 >

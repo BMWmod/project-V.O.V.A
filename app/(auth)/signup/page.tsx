@@ -12,7 +12,7 @@ export default function SignUp() {
   };
 
   const validateName = (name: string) => {
-    const forbiddenNames = ["вов","вовка","володя","вовчик", "вова", "владимир", "вован", "кова"];
+    const forbiddenNames = ["вов","вовка","володя","вовчик", "вова", "владимир", "вован", "кова", "vova", "vladimir", "azovchik", "азовчик", "4308чик", "каштан338", "даун338", "вовчик338", "boва"];
     if (forbiddenNames.includes(name.toLowerCase())) {
       setNameError("Это имя не существует");
       return false;
@@ -28,6 +28,7 @@ export default function SignUp() {
           <div className="pb-12 text-center">
             <h1 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-red-200),var(--color-gray-50),var(--color-red-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
               Заполнить форму поступления
+              
             </h1>
           </div>
 
